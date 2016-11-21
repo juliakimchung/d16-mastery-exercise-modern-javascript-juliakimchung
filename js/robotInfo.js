@@ -29,7 +29,7 @@ ATV.prototype = new Robot();
 let DroneOne = function() {
 	this.name = "DroneOne";
 	this.weapon = "Math";
-	this.character = "ariel";
+	this.character = "aerial";
 	this.damage = Math.floor(Math.random() * 10 + 20);
 	this.health = Math.floor(Math.random() * 100 + 40);
 };
@@ -39,7 +39,7 @@ DroneOne.prototype = new Drone();
 let DroneTwo = function() {
 	this.name = "DroneTwo";
 	this.weapon = "Language Arts";
-	this.character = "ariel";
+	this.character = "aerial";
 	this.damage = Math.floor(Math.random() * 30 + 40);
 	this.health = Math.floor(Math.random() * 120 + 30);
 };
