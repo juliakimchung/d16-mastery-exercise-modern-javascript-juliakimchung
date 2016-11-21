@@ -1,0 +1,43 @@
+$green: #30f430;
+
+body {
+  font-family: sans-serif;
+}
+
+#playerTurn {
+  font-size: 2em;
+  color: blue;
+}
+
+.player1 {
+  font-size: 1.2em;
+  color: lightgreen;
+  background-color: orange;
+}
+
+.player2 {
+  font-size: 1em;
+  color: purple;
+  background-color: beige;
+}
+
+.healthUpdate {
+  font-size: 1.5em;
+  color: red;
+}
+
+.yourTurn {
+  font-size: 2em;
+  color: firebrick;
+  background-color: yellow;
+}
+
+.card {
+  width: 40px;
+  height: 40px;
+}
+
+#winner {
+  font-size: 5em;
+  color: pink;
+}
