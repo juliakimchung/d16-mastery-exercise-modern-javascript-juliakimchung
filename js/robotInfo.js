@@ -30,8 +30,10 @@ let DroneOne = function() {
 	this.name = "DroneOne";
 	this.weapon = "Math";
 	this.character = "aerial";
-	this.damage = Math.floor(Math.random() * 10 + 20);
-	this.health = Math.floor(Math.random() * 100 + 40);
+	this.damage = 60;
+	this.health = 100;
+	// Math.floor(Math.random() * 10 + 20);
+	// this.health = Math.floor(Math.random() * 100 + 40);
 };
 
 DroneOne.prototype = new Drone();
@@ -40,8 +42,10 @@ let DroneTwo = function() {
 	this.name = "DroneTwo";
 	this.weapon = "Language Arts";
 	this.character = "aerial";
-	this.damage = Math.floor(Math.random() * 30 + 40);
-	this.health = Math.floor(Math.random() * 120 + 30);
+	this.damage = 20;
+	//Math.floor(Math.random() * 30 + 40);
+	this.health = 95;
+	//Math.floor(Math.random() * 120 + 30);
 };
 
 DroneTwo.prototype = new Drone();
@@ -50,8 +54,10 @@ let BipedalOne = function() {
 	this.name = "BipedalOne";
 	this.weapon = "Chemistry";
 	this.character = "ground";
-	this.damage = Math.floor(Math.random() * 40 + 40);
-	this.health = Math.floor(Math.random() * 200 + 10);
+	this.damage = 30;
+	//Math.floor(Math.random() * 40 + 40);
+	this.health = 120;
+	//Math.floor(Math.random() * 200 + 10);
 };
 BipedalOne.prototype = new Bipedal();
 
@@ -59,8 +65,10 @@ let BipedalTwo = function() {
 	this.name = "BipedalTwo";
 	this.weapon = "Physics";
 	this.character ="ground";
-	this.damage = Math.floor(Math.random() * 30 + 40);
-	this.health = Math.floor(Math.random() * 100 + 60);
+	this.damage = 50;
+	//Math.floor(Math.random() * 30 + 40);
+	this.health = 130;
+	// Math.floor(Math.random() * 100 + 60);
 };
 
 BipedalTwo.prototype = new Bipedal();
@@ -69,8 +77,10 @@ let ATVOne = function() {
 	this.name = "ATV01";
 	this.weapon = "History";
 	this.character = "ground";
-	this.damage = Math.floor(Math.random() * 30 + 10);
-	this.health = Math.floor(Math.random() * 100 + 40);
+	this.damage = 25;
+	//Math.floor(Math.random() * 30 + 10);
+	this.health = 90;
+	//Math.floor(Math.random() * 100 + 40);
 };
 ATVOne.prototype = new ATV();
 
@@ -78,8 +88,10 @@ let ATVTwo = function() {
 	this.name = "ATVTwo";
 	this.weapon = "Arts";
 	this.character = "ground";
-	this.damage = Math.floor(Math.random() * 50 + 40);
-	this.health = Math.floor(Math.random() * 110 + 40);
+	this.damage = 35;
+	//Math.floor(Math.random() * 50 + 40);
+	this.health = 110;
+	//Math.floor(Math.random() * 110 + 40);
 };
 ATVTwo.prototype = new ATV();
 

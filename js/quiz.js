@@ -27,7 +27,7 @@ $attack.click(function(event) {
 	let pickOne = [robot1Name, robot1Type];
 	let pickTwo = [robot2Name, robot2Type];
 	
-
+	console.log("name", pickOne[0]);
 	robotBattle.robotBattle(pickOne, pickTwo);
 	}
 });
