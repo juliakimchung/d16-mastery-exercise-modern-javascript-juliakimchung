@@ -57,29 +57,29 @@ BipedalOne.prototype = new Bipedal();
 
 let BipedalTwo = function() {
 	this.name = "BipedalTwo";
-    this.weapon = "Physics";
-    this.character ="ground";
-    this.damage = Math.floor(Math.random() * 30 + 40);
-    this.health = Math.floor(Math.random() * 100 + 60);
+	this.weapon = "Physics";
+	this.character ="ground";
+	this.damage = Math.floor(Math.random() * 30 + 40);
+	this.health = Math.floor(Math.random() * 100 + 60);
 };
 
 BipedalTwo.prototype = new Bipedal();
 
 let ATVOne = function() {
-    this.name = "ATV01";
-    this.weapon = "History";
-    this.character = "ground";
-    this.damage = Math.floor(Math.random() * 30 + 10);
-    this.health = Math.floor(Math.random() * 100 + 40);
+	this.name = "ATV01";
+	this.weapon = "History";
+	this.character = "ground";
+	this.damage = Math.floor(Math.random() * 30 + 10);
+	this.health = Math.floor(Math.random() * 100 + 40);
 };
 ATVOne.prototype = new ATV();
 
 let ATVTwo = function() {
-    this.name = "ATVTwo";
-    this.weapon = "Arts";
-    this.character = "ground";
-   	this.damage = Math.floor(Math.random() * 50 + 40);
-    this.health = Math.floor(Math.random() * 110 + 40);
+	this.name = "ATVTwo";
+	this.weapon = "Arts";
+	this.character = "ground";
+	this.damage = Math.floor(Math.random() * 50 + 40);
+	this.health = Math.floor(Math.random() * 110 + 40);
 };
 ATVTwo.prototype = new ATV();
 

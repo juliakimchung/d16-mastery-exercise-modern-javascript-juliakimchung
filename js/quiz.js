@@ -17,18 +17,18 @@ $attack.click(function(event) {
 
 	if ($robot1.val() !== "" || $typeRobot1.val() !== null || $robot2.val() !== "" || $typeRobot2.val() !== null) {
 		
-		$("#robotMaker").hide();
+	$("#robotMaker").hide();
 
-		let robot1Name = $robot1.val();
-		let robot1Type = $typeRobot1.val();
-		let robot2Name = $robot2.val();
-		let robot2Type = $typeRobot2.val();
+	let robot1Name = $robot1.val();
+	let robot1Type = $typeRobot1.val();
+	let robot2Name = $robot2.val();
+	let robot2Type = $typeRobot2.val();
 
-		let pickOne = [robot1Name, robot1Type];
-		let pickTwo = [robot2Name, robot2Type];
-		
+	let pickOne = [robot1Name, robot1Type];
+	let pickTwo = [robot2Name, robot2Type];
+	
 
-		robotBattle.robotBattle(pickOne, pickTwo);
+	robotBattle.robotBattle(pickOne, pickTwo);
 	}
 });
 
